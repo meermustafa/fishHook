@@ -18,7 +18,7 @@ represented, eligible can be a set of regions that meet an arbitrary exome cover
 where your targets are 1kb tiles. Regions of the genome you would want to exclude in this case are highly repetative regions such as centromeres, telomeres, and satelite repeates.
 This param must be of class "GRanges".}
 
-\item{covariates}{Covariates are genomic covariates that you belive will cause your given type of event (mutations, CNVs, fusions, case control samples) that are not linked to the process you are
+\item{covariates}{Covariates are genomic covariates that you believe will cause your given type of event (mutations, CNVs, fusions, case control samples) that are not linked to the process you are
 investigating (e.g. cancer drivers). In the case of cancer drivers, we are looking for regions that are mutated as part of cancer progression. As such, regions that are more suceptable to
 random mutagenesis such as late replicating or non-expressed region (transcription coupled repair) could become false positives. Including covariates for these biological processes will
 reduce thier visible effect in the final data. This param must be of type "Cov_Arr".}
